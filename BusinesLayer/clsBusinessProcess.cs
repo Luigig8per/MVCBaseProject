@@ -8,7 +8,7 @@ using System.Data;
 
 namespace BusinesLayer
 {
-    class clsBusinessProcess
+   public class clsBusinessProcess
     {
 
         public object ExeStoredProcedure(string storedProcedureName)

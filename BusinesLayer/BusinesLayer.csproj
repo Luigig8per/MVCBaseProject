@@ -52,6 +52,7 @@
     <Compile Include="clsBusinessProcess.cs" />
     <Compile Include="clsGeneric.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DatLayer\DatLayer.csproj">

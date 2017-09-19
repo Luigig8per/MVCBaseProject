@@ -23,5 +23,25 @@ namespace BusinesLayer
             }
             return b;
         }
+
+        public string dateUrl(DateTime day)
+        {
+
+            string datePage = "";
+
+
+
+            datePage = String.Format("{0:yyyyMMdd}", day);
+
+            return datePage;
+
+            //http://www.espn.com/mlb/probables/_/date/20170824
+        }
     }
+
+
+
+  
+
+
 }
